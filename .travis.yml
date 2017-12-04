@@ -5,7 +5,7 @@ install:
   - ./install_sdk.sh
   - pip3 install -r test_requirements.txt
 script:
-  - nosetests src/
+  - nosetests --with-coverage src/
 notifications:
   email:
     recipients:

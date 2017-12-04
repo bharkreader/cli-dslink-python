@@ -1,6 +1,9 @@
 # cli-dslink-python
 DSA CLI based in python3
 
+![alt-text][coverage]
+![alt-text][travis]
+
 ### Current Functionality
 Just getting started...
 
@@ -32,3 +35,6 @@ OK
 
 ##### Related Projects
 CLI written in dart: https://github.com/IOT-DSA/dslink-dart-shell
+
+[coverage]: https://codecov.io/gh/bharkreader/cli-dslink-python/coverage.svg?branch=develop "coverage"
+[travis]: https://travis-ci.org/bharkreader/cli-dslink-python.svg?branch=develop "travis"

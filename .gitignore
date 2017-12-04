@@ -5,3 +5,5 @@ venv
 *.pyc
 __pycache__
 dslink.egg-info
+.coverage
+coverage.xml
