@@ -1,14 +1,10 @@
 # cli-dslink-python
-DSA CLI based in python
-
-I would like to do this in python3, but the released dslink sdk
-does not support python3 yet. We should try to switch to python3
-when they have their next release.
+DSA CLI based in python3
 
 ### Current Functionality
 Just getting started...
 
-greet - Displays "Hello, World!"
+greet [name] - Displays "Hello, [name]"
 
 ### Goals for the Project
 The goal for this CLI is to be able to do the following

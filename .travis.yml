@@ -1,6 +1,8 @@
 language: python
+python:
+  - "3.5"
 install:
-  - install_sdk.sh
+  - ./install_sdk.sh
   - pip3 install -r test_requirements.txt
 script:
   - nosetests src/
