@@ -1,11 +1,18 @@
 language: python
+
 python:
   - "3.5"
+
 install:
   - ./install_sdk.sh
   - pip3 install -r test_requirements.txt
+
 script:
   - nosetests --with-coverage src/
+
+after_success:
+  - codecov
+  
 notifications:
   email:
     recipients:
