@@ -1,0 +1,3 @@
+[submodule "sdk-dslink-python"]
+	path = sdk-dslink-python
+	url = https://github.com/IOT-DSA/sdk-dslink-python.git

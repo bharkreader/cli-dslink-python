@@ -1,0 +1,10 @@
+language: python
+install:
+  - install_sdk.sh
+  - pip3 install -r test_requirements.txt
+script:
+  - nosetests src/
+notifications:
+  email:
+    recipients:
+      - bharkreader@gmail.com

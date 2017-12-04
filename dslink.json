@@ -1,0 +1,20 @@
+{
+  "name": "dslink-python-cli",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "DSA CLI based in python",
+  "main": "src/CLIDSLink.py",
+  "engines": {
+    "python": ">=2.7.0"
+  },
+  "getDependencies": [
+    "pip install -r requirements.txt"
+  ],
+  "configs": {
+    "broker": {
+      "type": "url"
+    },
+    "token": {
+      "type": "string"
+    }
+  }
+}
